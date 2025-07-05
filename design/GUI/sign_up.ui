@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sign Up</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>341</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="title">
+    <string>Điền thông tin cá nhân</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>301</width>
+      <height>235</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="usernameLabel">
+         <property name="text">
+          <string>Email:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="usernameLineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="hVTNLabel">
+         <property name="text">
+          <string>Họ Và Tên:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="hVTNLineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="ngYSinhLabel">
+         <property name="text">
+          <string>Ngày Sinh (mm/dd/yy)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QDateEdit" name="ngYSinhDateEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="sINThoILabel">
+         <property name="text">
+          <string>Số Điền Thoại:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="sINThoILineEdit"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="aChLabel">
+         <property name="text">
+          <string>Địa Chỉ:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="aChLineEdit"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="passwordLabel">
+         <property name="text">
+          <string>Password: </string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="passwordLineEdit"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="nhPLIPasswordLabel">
+         <property name="text">
+          <string>Nhập Lại Password</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="nhPLIPasswordLineEdit"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="mKhIPhCLabel">
+         <property name="text">
+          <string>Mã Khôi Phục</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="mKhIPhCLineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Sign Up</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

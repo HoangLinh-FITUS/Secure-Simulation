@@ -1,0 +1,35 @@
+2025-07-05 23:00:31,016 [INFO] - [behavior]: Đọc QR
+2025-07-05 23:00:51,694 [INFO] - [behavior]: Đọc ảnh qr tại đường dẫn: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/qrcode/vietnamsonglai005@gmail.com.png
+2025-07-05 23:00:53,217 [INFO] - [behavior]: linh2040501@gmail.com - vietnamsonglai005@gmail.com - Sat Jul  5 22:57:28 2025 - 90
+2025-07-05 23:00:54,236 [INFO] - [behavior]: Lưu Public Key của vietnamsonglai005@gmail.com - thành công
+2025-07-05 23:00:59,064 [INFO] - [behavior]: Tạo QR
+2025-07-05 23:00:59,087 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-05 23:00:59,268 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-05 23:01:21,102 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-05 23:01:25,308 [INFO] - [behavior]: Tìm Public key của vietnamsonglai005@gmail.com
+2025-07-05 23:01:52,710 [INFO] - [behavior]: Gửi File
+2025-07-05 23:02:00,018 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-05 23:02:23,085 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc - thành công
+2025-07-05 23:02:27,173 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/file_small.key - thành công
+2025-07-05 23:02:34,221 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-05 23:02:46,342 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc - thành công
+2025-07-05 23:02:52,834 [WARNING] - [behavior]: Lưu file  - thất bại
+2025-07-05 23:03:02,073 [INFO] - [behavior]: Gửi File
+2025-07-05 23:03:14,935 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-05 23:03:33,176 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc - thành công
+2025-07-05 23:03:43,935 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/file_small.key - thành công
+2025-07-05 23:04:09,342 [INFO] - [behavior]: Gửi File
+2025-07-05 23:04:16,591 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-05 23:04:31,736 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc - thành công
+2025-07-05 23:04:37,670 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-05 23:04:45,706 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc - thành công
+2025-07-05 23:04:51,425 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.key - thành công
+2025-07-05 23:05:02,176 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc - thành công
+2025-07-05 23:05:07,578 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.key - thành công
+2025-07-05 23:05:17,045 [INFO] - [behavior]: Ký File
+2025-07-05 23:05:25,417 [INFO] - [behavior]: đọc file: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-05 23:05:37,213 [INFO] - [behavior]: ký số tập tin - thành công
+2025-07-05 23:05:37,214 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig - thành công
+2025-07-05 23:05:42,516 [INFO] - [behavior]: đọc file: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-05 23:05:59,272 [INFO] - [behavior]: ký số tập tin - thành công
+2025-07-05 23:05:59,272 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.sig - thành công

@@ -1,0 +1,157 @@
+2025-07-05 22:57:28,036 [INFO] - [security]: vietnamsonglai005@gmail.com - Mã hóa mật khẩu bằng SHA_256 
+2025-07-05 22:57:28,036 [INFO] - [security]: vietnamsonglai005@gmail.com - Mã hóa mã khôi phục bằng SHA_256 
+2025-07-05 22:57:28,748 [INFO] - [security]: vietnamsonglai005@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-05 22:57:28,764 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-05 22:57:28,764 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-05 22:57:31,952 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-05 22:57:32,073 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-05 22:57:37,959 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-05 22:58:52,821 [INFO] - [security]: linh2040501@gmail.com - Mã hóa mật khẩu bằng SHA_256 
+2025-07-05 22:58:52,822 [INFO] - [security]: linh2040501@gmail.com - Mã hóa mã khôi phục bằng SHA_256 
+2025-07-05 22:58:53,751 [INFO] - [security]: linh2040501@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-05 22:58:53,759 [INFO] - [security]: linh2040501@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-05 22:58:53,760 [INFO] - [security]: linh2040501@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-05 22:59:10,811 [INFO] - [security]: Bắt đầu gửi OTP đến vietnamsonglai005@gmail.com
+2025-07-05 22:59:15,882 [INFO] - [security]: Gửi OTP thành công
+2025-07-05 22:59:47,278 [INFO] - [security]: Xác thực OTP - thành công
+2025-07-05 23:00:22,266 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-05 23:00:22,374 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-05 23:00:27,315 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-05 23:02:10,243 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:02:10,292 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:02:10,313 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:02:10,314 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:02:35,490 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:02:35,529 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:02:35,569 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:02:35,603 [INFO] - [security]: Mã hóa từng block thứ 1 của file bằng AES - thành công
+2025-07-05 23:02:35,637 [INFO] - [security]: Mã hóa từng block thứ 2 của file bằng AES - thành công
+2025-07-05 23:02:35,671 [INFO] - [security]: Mã hóa từng block thứ 3 của file bằng AES - thành công
+2025-07-05 23:02:35,703 [INFO] - [security]: Mã hóa từng block thứ 4 của file bằng AES - thành công
+2025-07-05 23:02:35,735 [INFO] - [security]: Mã hóa từng block thứ 5 của file bằng AES - thành công
+2025-07-05 23:02:35,766 [INFO] - [security]: Mã hóa từng block thứ 6 của file bằng AES - thành công
+2025-07-05 23:02:35,802 [INFO] - [security]: Mã hóa từng block thứ 7 của file bằng AES - thành công
+2025-07-05 23:02:35,836 [INFO] - [security]: Mã hóa từng block thứ 8 của file bằng AES - thành công
+2025-07-05 23:02:35,870 [INFO] - [security]: Mã hóa từng block thứ 9 của file bằng AES - thành công
+2025-07-05 23:02:35,904 [INFO] - [security]: Mã hóa từng block thứ 10 của file bằng AES - thành công
+2025-07-05 23:02:35,938 [INFO] - [security]: Mã hóa từng block thứ 11 của file bằng AES - thành công
+2025-07-05 23:02:35,970 [INFO] - [security]: Mã hóa từng block thứ 12 của file bằng AES - thành công
+2025-07-05 23:02:36,001 [INFO] - [security]: Mã hóa từng block thứ 13 của file bằng AES - thành công
+2025-07-05 23:02:36,034 [INFO] - [security]: Mã hóa từng block thứ 14 của file bằng AES - thành công
+2025-07-05 23:02:36,065 [INFO] - [security]: Mã hóa từng block thứ 15 của file bằng AES - thành công
+2025-07-05 23:02:36,100 [INFO] - [security]: Mã hóa từng block thứ 16 của file bằng AES - thành công
+2025-07-05 23:02:36,131 [INFO] - [security]: Mã hóa từng block thứ 17 của file bằng AES - thành công
+2025-07-05 23:02:36,161 [INFO] - [security]: Mã hóa từng block thứ 18 của file bằng AES - thành công
+2025-07-05 23:02:36,191 [INFO] - [security]: Mã hóa từng block thứ 19 của file bằng AES - thành công
+2025-07-05 23:02:36,220 [INFO] - [security]: Mã hóa từng block thứ 20 của file bằng AES - thành công
+2025-07-05 23:02:36,223 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:02:46,354 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:02:46,372 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:02:46,412 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:02:46,449 [INFO] - [security]: Mã hóa từng block thứ 1 của file bằng AES - thành công
+2025-07-05 23:02:46,485 [INFO] - [security]: Mã hóa từng block thứ 2 của file bằng AES - thành công
+2025-07-05 23:02:46,520 [INFO] - [security]: Mã hóa từng block thứ 3 của file bằng AES - thành công
+2025-07-05 23:02:46,557 [INFO] - [security]: Mã hóa từng block thứ 4 của file bằng AES - thành công
+2025-07-05 23:02:46,589 [INFO] - [security]: Mã hóa từng block thứ 5 của file bằng AES - thành công
+2025-07-05 23:02:46,624 [INFO] - [security]: Mã hóa từng block thứ 6 của file bằng AES - thành công
+2025-07-05 23:02:46,656 [INFO] - [security]: Mã hóa từng block thứ 7 của file bằng AES - thành công
+2025-07-05 23:02:46,690 [INFO] - [security]: Mã hóa từng block thứ 8 của file bằng AES - thành công
+2025-07-05 23:02:46,723 [INFO] - [security]: Mã hóa từng block thứ 9 của file bằng AES - thành công
+2025-07-05 23:02:46,755 [INFO] - [security]: Mã hóa từng block thứ 10 của file bằng AES - thành công
+2025-07-05 23:02:46,787 [INFO] - [security]: Mã hóa từng block thứ 11 của file bằng AES - thành công
+2025-07-05 23:02:46,818 [INFO] - [security]: Mã hóa từng block thứ 12 của file bằng AES - thành công
+2025-07-05 23:02:46,850 [INFO] - [security]: Mã hóa từng block thứ 13 của file bằng AES - thành công
+2025-07-05 23:02:46,881 [INFO] - [security]: Mã hóa từng block thứ 14 của file bằng AES - thành công
+2025-07-05 23:02:46,916 [INFO] - [security]: Mã hóa từng block thứ 15 của file bằng AES - thành công
+2025-07-05 23:02:46,949 [INFO] - [security]: Mã hóa từng block thứ 16 của file bằng AES - thành công
+2025-07-05 23:02:46,982 [INFO] - [security]: Mã hóa từng block thứ 17 của file bằng AES - thành công
+2025-07-05 23:02:47,016 [INFO] - [security]: Mã hóa từng block thứ 18 của file bằng AES - thành công
+2025-07-05 23:02:47,048 [INFO] - [security]: Mã hóa từng block thứ 19 của file bằng AES - thành công
+2025-07-05 23:02:47,080 [INFO] - [security]: Mã hóa từng block thứ 20 của file bằng AES - thành công
+2025-07-05 23:02:47,082 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:03:21,299 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:03:21,303 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:03:21,324 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:03:21,324 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:04:23,766 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:04:23,787 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:04:23,822 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:04:23,852 [INFO] - [security]: Mã hóa từng block thứ 1 của file bằng AES - thành công
+2025-07-05 23:04:23,881 [INFO] - [security]: Mã hóa từng block thứ 2 của file bằng AES - thành công
+2025-07-05 23:04:23,909 [INFO] - [security]: Mã hóa từng block thứ 3 của file bằng AES - thành công
+2025-07-05 23:04:23,935 [INFO] - [security]: Mã hóa từng block thứ 4 của file bằng AES - thành công
+2025-07-05 23:04:23,964 [INFO] - [security]: Mã hóa từng block thứ 5 của file bằng AES - thành công
+2025-07-05 23:04:23,992 [INFO] - [security]: Mã hóa từng block thứ 6 của file bằng AES - thành công
+2025-07-05 23:04:24,020 [INFO] - [security]: Mã hóa từng block thứ 7 của file bằng AES - thành công
+2025-07-05 23:04:24,049 [INFO] - [security]: Mã hóa từng block thứ 8 của file bằng AES - thành công
+2025-07-05 23:04:24,076 [INFO] - [security]: Mã hóa từng block thứ 9 của file bằng AES - thành công
+2025-07-05 23:04:24,105 [INFO] - [security]: Mã hóa từng block thứ 10 của file bằng AES - thành công
+2025-07-05 23:04:24,133 [INFO] - [security]: Mã hóa từng block thứ 11 của file bằng AES - thành công
+2025-07-05 23:04:24,162 [INFO] - [security]: Mã hóa từng block thứ 12 của file bằng AES - thành công
+2025-07-05 23:04:24,192 [INFO] - [security]: Mã hóa từng block thứ 13 của file bằng AES - thành công
+2025-07-05 23:04:24,221 [INFO] - [security]: Mã hóa từng block thứ 14 của file bằng AES - thành công
+2025-07-05 23:04:24,252 [INFO] - [security]: Mã hóa từng block thứ 15 của file bằng AES - thành công
+2025-07-05 23:04:24,282 [INFO] - [security]: Mã hóa từng block thứ 16 của file bằng AES - thành công
+2025-07-05 23:04:24,310 [INFO] - [security]: Mã hóa từng block thứ 17 của file bằng AES - thành công
+2025-07-05 23:04:24,338 [INFO] - [security]: Mã hóa từng block thứ 18 của file bằng AES - thành công
+2025-07-05 23:04:24,366 [INFO] - [security]: Mã hóa từng block thứ 19 của file bằng AES - thành công
+2025-07-05 23:04:24,394 [INFO] - [security]: Mã hóa từng block thứ 20 của file bằng AES - thành công
+2025-07-05 23:04:24,397 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:04:39,144 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:04:39,148 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:04:39,167 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:04:39,167 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:04:51,426 [INFO] - [security]: email: linh2040501@gmail.com
+2025-07-05 23:04:51,428 [INFO] - [security]: Mã hóa AES_KEY bằng public key - thành công
+2025-07-05 23:04:51,438 [INFO] - [security]: Mã hóa từng block thứ 0 của file bằng AES - thành công
+2025-07-05 23:04:51,438 [INFO] - [security]: mã hóa file - thành công
+2025-07-05 23:05:30,375 [INFO] - [security]: linh2040501@gmail.com - AES giải mã private key bằng password - thành công
+2025-07-05 23:05:48,062 [INFO] - [security]: linh2040501@gmail.com - AES giải mã private key bằng password - thất bại
+2025-07-05 23:05:53,471 [INFO] - [security]: linh2040501@gmail.com - AES giải mã private key bằng password - thành công
+2025-07-05 23:09:41,560 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-05 23:09:41,659 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-05 23:09:44,955 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-05 23:10:20,641 [INFO] - [security]: Email: vietnamsonglai005@gmail.com
+2025-07-05 23:10:20,664 [INFO] - [security]: AES giải mã private key bằng password - thành công
+2025-07-05 23:10:20,732 [INFO] - [security]: giải mã AES_KEY bằng private key - thành công
+2025-07-05 23:10:20,754 [INFO] - [security]: giải mã block thứ 0 của file bằng AES - thành công
+2025-07-05 23:10:20,755 [INFO] - [security]: Giải mã file thành công
+2025-07-05 23:10:41,621 [INFO] - [security]: Email: vietnamsonglai005@gmail.com
+2025-07-05 23:10:41,622 [INFO] - [security]: AES giải mã private key bằng password - thành công
+2025-07-05 23:10:41,668 [INFO] - [security]: giải mã AES_KEY bằng private key - thành công
+2025-07-05 23:10:41,726 [INFO] - [security]: giải mã block thứ 0 của file bằng AES - thành công
+2025-07-05 23:10:41,783 [INFO] - [security]: giải mã block thứ 1 của file bằng AES - thành công
+2025-07-05 23:10:41,839 [INFO] - [security]: giải mã block thứ 2 của file bằng AES - thành công
+2025-07-05 23:10:41,897 [INFO] - [security]: giải mã block thứ 3 của file bằng AES - thành công
+2025-07-05 23:10:41,955 [INFO] - [security]: giải mã block thứ 4 của file bằng AES - thành công
+2025-07-05 23:10:42,020 [INFO] - [security]: giải mã block thứ 5 của file bằng AES - thành công
+2025-07-05 23:10:42,082 [INFO] - [security]: giải mã block thứ 6 của file bằng AES - thành công
+2025-07-05 23:10:42,148 [INFO] - [security]: giải mã block thứ 7 của file bằng AES - thành công
+2025-07-05 23:10:42,212 [INFO] - [security]: giải mã block thứ 8 của file bằng AES - thành công
+2025-07-05 23:10:42,274 [INFO] - [security]: giải mã block thứ 9 của file bằng AES - thành công
+2025-07-05 23:10:42,335 [INFO] - [security]: giải mã block thứ 10 của file bằng AES - thành công
+2025-07-05 23:10:42,396 [INFO] - [security]: giải mã block thứ 11 của file bằng AES - thành công
+2025-07-05 23:10:42,458 [INFO] - [security]: giải mã block thứ 12 của file bằng AES - thành công
+2025-07-05 23:10:42,524 [INFO] - [security]: giải mã block thứ 13 của file bằng AES - thành công
+2025-07-05 23:10:42,592 [INFO] - [security]: giải mã block thứ 14 của file bằng AES - thành công
+2025-07-05 23:10:42,661 [INFO] - [security]: giải mã block thứ 15 của file bằng AES - thành công
+2025-07-05 23:10:42,727 [INFO] - [security]: giải mã block thứ 16 của file bằng AES - thành công
+2025-07-05 23:10:42,797 [INFO] - [security]: giải mã block thứ 17 của file bằng AES - thành công
+2025-07-05 23:10:42,862 [INFO] - [security]: giải mã block thứ 18 của file bằng AES - thành công
+2025-07-05 23:10:42,930 [INFO] - [security]: giải mã block thứ 19 của file bằng AES - thành công
+2025-07-05 23:10:42,995 [INFO] - [security]: giải mã block thứ 20 của file bằng AES - thành công
+2025-07-05 23:10:43,051 [INFO] - [security]: Giải mã file thành công
+2025-07-05 23:13:03,487 [INFO] - [security]: vietnamsonglai005@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-05 23:13:03,488 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-05 23:13:03,488 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-05 23:13:03,500 [INFO] - [security]: vietnamsonglai005@gmail.com - Thay đổi khóa private key vs public key - thành công
+2025-07-05 23:13:20,775 [INFO] - [security]: vietnamsonglai005@gmail.com - AES giải mã private_key bằng mật khẩu - thành công
+2025-07-05 23:13:20,776 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password mới - thành công
+2025-07-05 23:13:20,777 [INFO] - [security]: vietnamsonglai005@gmail.com - SHA_256 Mã hóa new_password - thành công
+2025-07-05 23:13:31,807 [INFO] - [security]: vietnamsonglai005@gmail.com - AES giải mã private_key bằng mật khẩu - thành công
+2025-07-05 23:13:31,808 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password mới - thành công
+2025-07-05 23:13:31,808 [INFO] - [security]: vietnamsonglai005@gmail.com - SHA_256 Mã hóa new_password - thành công
+2025-07-05 23:13:44,067 [INFO] - [security]: vietnamsonglai005@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-05 23:13:44,067 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-05 23:13:44,067 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-05 23:13:44,080 [INFO] - [security]: vietnamsonglai005@gmail.com - Thay đổi khóa private key vs public key - thành công

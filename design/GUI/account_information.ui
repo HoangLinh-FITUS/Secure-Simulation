@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Thông Tin Tài Khoản</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>591</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="hVTNLabel">
+        <property name="text">
+         <string>Họ Và Tên</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="hVTNLineEdit">
+        <property name="text">
+         <string>Nguyen van a</string>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="ngYSinhLabel">
+        <property name="text">
+         <string>Ngày Sinh</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDateEdit" name="ngYSinhDateEdit"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="sTLabel">
+        <property name="text">
+         <string>SĐT</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="sTLineEdit">
+        <property name="text">
+         <string>123456789</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="aChLabel">
+        <property name="text">
+         <string>Địa Chỉ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="aChLineEdit">
+        <property name="text">
+         <string>hèm nào đó ở đâu đó gần ở đó</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="mTKhUCLabel">
+        <property name="text">
+         <string>Mật Khẩu Cũ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="mTKhUCLineEdit"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="mTKhUMILabel">
+        <property name="text">
+         <string>Mật Khẩu Mới</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="mTKhUMILineEdit"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="xCNhNLILabel">
+        <property name="text">
+         <string>Xác Nhận Lại</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="xCNhNLILineEdit"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Update</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
