@@ -7,6 +7,7 @@ from modules.account import file
 from modules.database import email_public_keys
 from modules.types.customer import *
 from modules.config import logger
+from modules.utils import status
 
 import gui 
 
@@ -76,9 +77,17 @@ class SendFile(QWidget):
         if not infor:
             gui.announce.dont_find_public_key()
             raise Exception('khong tim thay public key')
+        
+        user = email_public_keys.Data(*infor[0])
+        if status.thoihanconlai(user.ngay_tao, user.thoi_han) == 0:
+            gui.announce.public_key_hethan()
+            raise Exception('public key da het han')
+        if status.check_change_public_key(user.email_manager, user.email):
+            gui.announce.public_key_change()
+            raise Exception('Public key da thay doi')
 
         try:
-            public_key: Base64Str = Base64Str.from_string(infor[0][2])
+            public_key: Base64Str = Base64Str.from_string(user.public_key)
             logger.security.info(f'email: {self.email_manager}')
             data_file, data_key = file.send(self.filename, public_key)
             logger.security.info(f'mã hóa file - thành công')

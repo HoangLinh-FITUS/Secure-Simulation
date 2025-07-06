@@ -6,6 +6,7 @@ from modules.types.customer import *
 from modules.crypto import signature
 from modules.database import email_public_keys
 from modules.config import logger
+from modules.utils import status
 
 import gui 
 
@@ -66,8 +67,15 @@ class VerifySignature(QWidget):
         users = email_public_keys.find(self.email_manager)
         
         for user in users:
-            public_key = Base64Str.from_string(users[0][2])
-            self.nguoi_ky = user[1]
+            
+            user = email_public_keys.Data(*user)
+            if status.thoihanconlai(user.ngay_tao, user.thoi_han) == 0:
+                continue
+            if status.check_change_public_key(self.email_manager, user.email):
+                continue
+
+            public_key = Base64Str.from_string(user.public_key)
+            self.nguoi_ky = user.email
 
             ok = signature.verify(public_key, self.data_file, self.data_file_sig)
             if ok:

@@ -1,0 +1,134 @@
+2025-07-06 11:35:12,863 [INFO] - [behavior]: cập nhật thông tin
+2025-07-06 11:35:16,919 [INFO] - [behavior]: Bắt đầu cập thật thông tin tài khoản
+2025-07-06 11:35:16,919 [INFO] - [behavior]: Đầu vào : Nguyen Van AN - 1/1/2000 - 98798798 - Dia chi so 1
+2025-07-06 11:35:18,031 [INFO] - [behavior]: cập thật thông tin tài khoản thành công
+2025-07-06 11:35:29,767 [INFO] - [behavior]: Thay đổi password mới thành công
+2025-07-06 11:35:31,695 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 11:35:34,120 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:35:34,248 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:35:34,416 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:35:34,541 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:35:34,832 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:35:35,054 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:36:01,590 [INFO] - [behavior]: Tạo QR
+2025-07-06 11:36:01,596 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 11:36:01,813 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-06 11:41:30,449 [INFO] - [behavior]: Đọc QR
+2025-07-06 11:41:38,245 [INFO] - [behavior]: Đọc ảnh qr tại đường dẫn: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/qrcode/linh2040501.png
+2025-07-06 11:41:39,917 [INFO] - [behavior]: vietnamsonglai005@gmail.com - linh2040501@gmail.com - Sun Jul  6 11:37:06 2025 - 90
+2025-07-06 11:41:41,239 [INFO] - [behavior]: Lưu Public Key của linh2040501@gmail.com - thành công
+2025-07-06 11:41:45,201 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:41:57,955 [INFO] - [behavior]: Mở file enc: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc
+2025-07-06 11:42:28,785 [INFO] - [behavior]: Mở file key: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.key
+2025-07-06 11:42:30,554 [INFO] - [behavior]: tên file: small.pdf
+2025-07-06 11:42:30,554 [INFO] - [behavior]: Nguoi gui: linh2040501@gmail.com
+2025-07-06 11:42:30,554 [INFO] - [behavior]: timestamp: 2025-07-06T04:39:11.657314Z
+2025-07-06 11:42:43,465 [INFO] - [behavior]: Mở file enc: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc
+2025-07-06 11:42:45,826 [ERROR] - [behavior]: Giải mã file thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\read_file.py", line 110, in __read_file
+    self.data_file_original = file.receive(data_file, data_key, private_key_password, password)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\account\file.py", line 36, in receive
+    original_data = FILE.decrypt(data_enc, data_key_enc, private_key)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\crypto\FILE.py", line 40, in decrypt
+    file += f
+            ^
+UnboundLocalError: cannot access local variable 'f' where it is not associated with a value
+2025-07-06 11:42:56,078 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:42:58,926 [INFO] - [behavior]: Mở file enc: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc
+2025-07-06 11:43:04,075 [ERROR] - [behavior]: Giải mã file thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\crypto\AES.py", line 32, in decrypt
+    cipher_key.verify(tag)
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\Crypto\Cipher\_mode_gcm.py", line 508, in verify
+    raise ValueError("MAC check failed")
+ValueError: MAC check failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\read_file.py", line 110, in __read_file
+    self.data_file_original = file.receive(data_file, data_key, private_key_password, password)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\account\file.py", line 31, in receive
+    private_key = AES.decrypt(password.encode(), private_key_password_enc)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\crypto\AES.py", line 35, in decrypt
+    raise Exception('khong giai ma dc')
+Exception: khong giai ma dc
+2025-07-06 11:43:12,790 [INFO] - [behavior]: tên file: large.pdf
+2025-07-06 11:43:12,791 [INFO] - [behavior]: Nguoi gui: linh2040501@gmail.com
+2025-07-06 11:43:12,791 [INFO] - [behavior]: timestamp: 2025-07-06T04:39:41.080481Z
+2025-07-06 11:43:21,356 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:43:27,350 [INFO] - [behavior]: Tìm Public key của linh2040501@gmail.com
+2025-07-06 11:43:31,022 [INFO] - [behavior]: xác thực chữ ký
+2025-07-06 11:43:39,816 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-06 11:43:46,050 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig
+2025-07-06 11:43:55,136 [INFO] - [behavior]: Xác minh chữ ký thất bại
+2025-07-06 11:44:11,395 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:44:12,731 [INFO] - [behavior]: Nguoi ky: linh2040501@gmail.com - Thoi gian: 2025-07-06T04:40:59.875573Z - Xác minh chữ ký thành công
+2025-07-06 11:44:20,436 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-06 11:44:24,792 [INFO] - [behavior]: Xem log hệ thống
+2025-07-06 11:44:26,616 [INFO] - [behavior]: Xem log: vietnamsonglai005@gmail.com\behavior.log
+2025-07-06 11:45:37,401 [INFO] - [behavior]: Xem log hệ thống
+2025-07-06 11:45:39,116 [INFO] - [behavior]: Xem log: vietnamsonglai005@gmail.com\behavior.log
+2025-07-06 11:45:44,216 [INFO] - [behavior]: Xem log: login.log
+2025-07-06 11:45:50,372 [INFO] - [behavior]: Xem log: vietnamsonglai005@gmail.com\behavior.log
+2025-07-06 11:45:57,607 [INFO] - [behavior]: Xem log: linh2040501@gmail.com\behavior.log
+2025-07-06 11:46:02,575 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-06 11:46:08,629 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-06 11:46:10,754 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-06 11:46:12,092 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-06 11:47:10,675 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-06 11:47:19,207 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 11:47:30,440 [INFO] - [behavior]: Nhập password
+2025-07-06 11:47:30,440 [INFO] - [behavior]: Nhập mã khôi phục
+2025-07-06 11:47:30,670 [INFO] - [behavior]: Tạo khóa mới thành công
+2025-07-06 11:47:33,538 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:47:40,062 [INFO] - [behavior]: Tạo QR
+2025-07-06 11:47:40,066 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 11:47:40,286 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-06 11:52:59,245 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:53:07,473 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:53:11,649 [INFO] - [behavior]: Mở file enc: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc
+2025-07-06 11:53:35,919 [INFO] - [behavior]: xác thực chữ ký
+2025-07-06 11:53:44,065 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:53:49,953 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig
+2025-07-06 11:53:52,855 [INFO] - [behavior]: Xác minh chữ ký thất bại
+2025-07-06 11:54:04,539 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:54:09,201 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:54:12,829 [INFO] - [behavior]: Tạo QR
+2025-07-06 11:54:12,833 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 11:54:13,033 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-06 11:54:19,306 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:54:23,928 [INFO] - [behavior]: Mở file enc: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc
+2025-07-06 11:54:26,834 [INFO] - [behavior]: Mở file key: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.key
+2025-07-06 11:54:33,157 [ERROR] - [behavior]: Giải mã file thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\read_file.py", line 110, in __read_file
+    self.data_file_original = file.receive(data_file, data_key, private_key_password, password)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\account\file.py", line 36, in receive
+    original_data = FILE.decrypt(data_enc, data_key_enc, private_key)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\crypto\FILE.py", line 28, in decrypt
+    aes_key_enc      = RSA.decrypt(private_key, aes_key_enc)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\crypto\RSA.py", line 27, in decrypt
+    decrypted = cipher_rsa.decrypt(ciphertext)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\Crypto\Cipher\PKCS1_OAEP.py", line 191, in decrypt
+    raise ValueError("Incorrect decryption.")
+ValueError: Incorrect decryption.
+2025-07-06 11:54:55,662 [INFO] - [behavior]: Đọc QR
+2025-07-06 11:55:04,088 [INFO] - [behavior]: Đọc ảnh qr tại đường dẫn: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/qrcode/linh2040501.png
+2025-07-06 11:55:06,781 [INFO] - [behavior]: vietnamsonglai005@gmail.com - linh2040501@gmail.com - Sun Jul  6 11:52:17 2025 - 270
+2025-07-06 11:55:07,851 [INFO] - [behavior]: Lưu Public Key của linh2040501@gmail.com - thành công
+2025-07-06 11:55:09,463 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:55:13,465 [INFO] - [behavior]: Tìm Public key của linh2040501@gmail.com
+2025-07-06 11:55:16,211 [INFO] - [behavior]: xác thực chữ ký
+2025-07-06 11:55:24,796 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:55:29,033 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig
+2025-07-06 11:55:31,515 [INFO] - [behavior]: Xác minh chữ ký thất bại

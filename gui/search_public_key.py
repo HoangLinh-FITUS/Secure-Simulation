@@ -61,7 +61,14 @@ class Search_PublicKey(QWidget):
             search_data = email_public_keys.Data(*row)
             
             if search_email == search_data.email:    
-                print(search_data)
+                
+                if thoihanconlai(search_data.ngay_tao, search_data.thoi_han) == 0:
+                    gui.announce.public_key_hethan()
+                    return
+                if check_change_public_key(self.email_manager, search_data.email):
+                    gui.announce.public_key_change()
+                    return
+                
                 self.update_results(search_data.email, search_data.ngay_tao, 
                                     thoihanconlai(search_data.ngay_tao, search_data.thoi_han), 
                                     search_data.public_key)

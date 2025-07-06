@@ -1,0 +1,26 @@
+2025-07-06 11:35:00,729 [INFO] - [login]: vietnamsonglai005@gmail.com - Bắt đầu đăng ký tài khoản .... 
+2025-07-06 11:35:00,730 [INFO] - [login]: vietnamsonglai005@gmail.com - Nguyen Van A - 1/1/2000 - 98798798 - Dia chi so 1
+2025-07-06 11:35:03,448 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng ký tài khoản thành công 
+2025-07-06 11:35:11,212 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng nhập - thành công
+2025-07-06 11:37:05,399 [INFO] - [login]: linh2040501@gmail.com - Bắt đầu đăng ký tài khoản .... 
+2025-07-06 11:37:05,399 [INFO] - [login]: linh2040501@gmail.com - Nguyen Van B - 1/1/2000 - 971238 - Dia chi so 2
+2025-07-06 11:37:07,418 [INFO] - [login]: linh2040501@gmail.com - Đăng ký tài khoản thành công 
+2025-07-06 11:37:18,386 [INFO] - [login]: linh2040501@gmail.com - Đăng nhập - thành công
+2025-07-06 11:41:15,271 [WARNING] - [login]: vietnamsonglai005@gmail.com - Số lần nhập sai mật khẩu: 1
+2025-07-06 11:41:25,678 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng nhập - thành công
+2025-07-06 11:44:38,104 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 1
+2025-07-06 11:44:38,410 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 2
+2025-07-06 11:44:38,705 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 3
+2025-07-06 11:44:38,996 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 4
+2025-07-06 11:44:39,567 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 5
+2025-07-06 11:44:39,576 [INFO] - [login]: linh2040501@gmail.com - Lock tài khoản trong 300 giây
+2025-07-06 11:44:54,718 [WARNING] - [login]: linh2040501@gmail.com - Số lần nhập sai mật khẩu: 1
+2025-07-06 11:44:57,700 [INFO] - [login]: linh2040501@gmail.com - Lock tài khoản trong 281 giây
+2025-07-06 11:45:22,680 [WARNING] - [login]: vietnamsonglai005@gmail.com - Số lần nhập sai mật khẩu: 1
+2025-07-06 11:45:34,687 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng nhập - thành công
+2025-07-06 11:46:40,024 [INFO] - [login]: linh2040501@gmail.com - Đăng nhập - thành công
+2025-07-06 11:47:09,230 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng nhập - thành công
+2025-07-06 11:48:04,436 [INFO] - [login]: linh2040501@gmail.com - Đăng nhập - thành công
+2025-07-06 11:52:07,011 [INFO] - [login]: linh2040501@gmail.com - Đăng nhập - thành công
+2025-07-06 11:52:44,971 [WARNING] - [login]: vietnamsonglai005@gmail.com - Số lần nhập sai mật khẩu: 1
+2025-07-06 11:52:55,891 [INFO] - [login]: vietnamsonglai005@gmail.com - Đăng nhập - thành công

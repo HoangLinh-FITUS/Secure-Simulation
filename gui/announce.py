@@ -134,6 +134,11 @@ def signature_failed() -> None:
 def verify_sign_faild() -> None:
     QMessageBox.critical(None, 'verify signature', 'xác minh ký số tập tin thất bại (không có public key nào được lưu mà có thể xác minh được)')
 
+def public_key_hethan() -> None:
+    QMessageBox.critical(None, 'Public key', 'Public key này đã hết hạn')
+
+def public_key_change() -> None:
+    QMessageBox.critical(None, 'Public key', 'Public key của user này đã thay đổi')
 
 class Waiting(QWidget):
     def __init__(self, parent=None):

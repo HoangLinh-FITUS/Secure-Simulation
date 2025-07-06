@@ -1,0 +1,49 @@
+2025-07-06 11:37:25,225 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 11:37:29,540 [INFO] - [behavior]: Đọc QR
+2025-07-06 11:37:37,992 [INFO] - [behavior]: Đọc ảnh qr tại đường dẫn: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/qrcode/vietnamsonglai005.png
+2025-07-06 11:37:39,776 [INFO] - [behavior]: linh2040501@gmail.com - vietnamsonglai005@gmail.com - Sun Jul  6 11:35:01 2025 - 630
+2025-07-06 11:37:41,211 [INFO] - [behavior]: Lưu Public Key của vietnamsonglai005@gmail.com - thành công
+2025-07-06 11:37:50,947 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:37:56,783 [INFO] - [behavior]: Không tìm thấy public key của vietnamsonglia005@gmail.com
+2025-07-06 11:38:02,218 [INFO] - [behavior]: Tìm Public key của vietnamsonglai005@gmail.com
+2025-07-06 11:38:29,042 [INFO] - [behavior]: Gửi File
+2025-07-06 11:38:37,448 [INFO] - [behavior]: Tạo QR
+2025-07-06 11:38:37,456 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 11:38:37,666 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-06 11:38:52,936 [INFO] - [behavior]: Gửi File
+2025-07-06 11:39:03,380 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/small.pdf
+2025-07-06 11:39:23,841 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_small.enc - thành công
+2025-07-06 11:39:30,348 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/file_small.key - thành công
+2025-07-06 11:39:38,513 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:39:50,332 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.enc - thành công
+2025-07-06 11:39:53,780 [WARNING] - [behavior]: Lưu file  - thất bại
+2025-07-06 11:40:36,645 [INFO] - [behavior]: Ký File
+2025-07-06 11:40:43,950 [INFO] - [behavior]: đọc file: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:41:00,022 [INFO] - [behavior]: ký số tập tin - thành công
+2025-07-06 11:41:00,022 [INFO] - [behavior]: Lưu file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig - thành công
+2025-07-06 11:48:08,254 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:48:19,406 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:48:23,255 [INFO] - [behavior]: Gửi File
+2025-07-06 11:48:31,854 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:49:38,991 [INFO] - [behavior]: xác thực chữ ký
+2025-07-06 11:49:46,912 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
+2025-07-06 11:49:51,461 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig
+2025-07-06 11:49:54,872 [INFO] - [behavior]: Xác minh chữ ký thất bại
+2025-07-06 11:49:59,815 [INFO] - [behavior]: Đọc QR
+2025-07-06 11:50:03,189 [INFO] - [behavior]: Đọc QR
+2025-07-06 11:50:12,862 [INFO] - [behavior]: Đọc ảnh qr tại đường dẫn: D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/qrcode/vietnamsonglai005.png
+2025-07-06 11:50:14,549 [INFO] - [behavior]: linh2040501@gmail.com - vietnamsonglai005@gmail.com - Sun Jul  6 11:47:30 2025 - 180
+2025-07-06 11:50:15,976 [INFO] - [behavior]: Lưu Public Key của vietnamsonglai005@gmail.com - thành công
+2025-07-06 11:50:18,073 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 11:50:22,981 [INFO] - [behavior]: Tìm Public key của vietnamsonglai005@gmail.com
+2025-07-06 11:50:30,782 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:50:40,616 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 11:52:10,142 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 11:52:16,994 [INFO] - [behavior]: Nhập password
+2025-07-06 11:52:16,994 [INFO] - [behavior]: Nhập mã khôi phục
+2025-07-06 11:52:17,622 [INFO] - [behavior]: Tạo khóa mới thành công
+2025-07-06 11:52:20,019 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:52:20,420 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 11:52:22,922 [INFO] - [behavior]: Tạo QR
+2025-07-06 11:52:22,927 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 11:52:23,152 [INFO] - [behavior]: Tạo QR - thành công
