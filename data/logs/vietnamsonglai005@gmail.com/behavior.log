@@ -76,3 +76,47 @@
 2025-07-05 23:14:07,428 [INFO] - [behavior]: Xem log: vietnamsonglai005@gmail.com\behavior.log
 2025-07-05 23:14:11,316 [INFO] - [behavior]: Xem log: login.log
 2025-07-05 23:14:13,464 [INFO] - [behavior]: Xem log: security.log
+2025-07-06 10:42:16,745 [INFO] - [behavior]: cập nhật thông tin
+2025-07-06 10:42:19,767 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 10:42:58,235 [INFO] - [behavior]: cập nhật thông tin
+2025-07-06 10:43:00,706 [INFO] - [behavior]: Bắt đầu cập thật thông tin tài khoản
+2025-07-06 10:43:00,715 [INFO] - [behavior]: Đầu vào : Nguyen Van A - 1/1/2000 - 123987987 - Dia chi so 1
+2025-07-06 10:43:02,157 [INFO] - [behavior]: cập thật thông tin tài khoản thành công
+2025-07-06 10:43:05,488 [INFO] - [behavior]: Bắt đầu cập thật thông tin tài khoản
+2025-07-06 10:43:05,488 [INFO] - [behavior]: Đầu vào : Nguyen Van AN - 1/1/2000 - 123987987 - Dia chi so 1
+2025-07-06 10:43:06,855 [INFO] - [behavior]: cập thật thông tin tài khoản thành công
+2025-07-06 10:43:19,766 [INFO] - [behavior]: Thay đổi password mới thành công
+2025-07-06 10:43:31,564 [INFO] - [behavior]: Thay đổi password mới thành công
+2025-07-06 10:43:33,381 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 10:43:35,251 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:35,382 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:35,697 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:35,844 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:35,972 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:36,099 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:43:43,084 [INFO] - [behavior]: Nhập password
+2025-07-06 10:43:43,084 [INFO] - [behavior]: Nhập mã khôi phục
+2025-07-06 10:43:43,501 [INFO] - [behavior]: Tạo khóa mới thành công
+2025-07-06 10:43:46,591 [INFO] - [behavior]: cập nhật thông tin
+2025-07-06 10:43:58,145 [INFO] - [behavior]: Thay đổi password mới thành công
+2025-07-06 10:43:59,591 [INFO] - [behavior]: xem quản lý khóa
+2025-07-06 10:44:04,797 [INFO] - [behavior]: Nhập password
+2025-07-06 10:44:04,797 [INFO] - [behavior]: Nhập mã khôi phục
+2025-07-06 10:44:04,798 [WARNING] - [behavior]: Tạo khóa mới thất bại
+2025-07-06 10:44:12,680 [INFO] - [behavior]: Nhập password
+2025-07-06 10:44:12,681 [INFO] - [behavior]: Nhập mã khôi phục
+2025-07-06 10:44:13,970 [INFO] - [behavior]: Tạo khóa mới thành công
+2025-07-06 10:44:17,206 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:44:17,491 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:44:17,618 [INFO] - [behavior]: Gia hạn khóa thêm 90
+2025-07-06 10:44:20,349 [INFO] - [behavior]: Đọc QR
+2025-07-06 10:44:27,523 [INFO] - [behavior]: Tạo QR
+2025-07-06 10:44:27,525 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 10:44:27,773 [INFO] - [behavior]: Tạo QR - thành công
+2025-07-06 10:44:30,956 [INFO] - [behavior]: Đọc file được gửi
+2025-07-06 10:44:33,371 [INFO] - [behavior]: Tìm kiếm Public Key
+2025-07-06 10:44:35,186 [INFO] - [behavior]: Gửi File
+2025-07-06 10:44:36,979 [INFO] - [behavior]: Ký File
+2025-07-06 10:44:39,334 [INFO] - [behavior]: Tạo QR
+2025-07-06 10:44:39,337 [INFO] - [behavior]: Bắt đầu tạo QR ....
+2025-07-06 10:44:39,552 [INFO] - [behavior]: Tạo QR - thành công

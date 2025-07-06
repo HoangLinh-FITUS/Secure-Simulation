@@ -90,7 +90,7 @@ class ReadQR(QWidget):
             user = email_public_keys.find(self.email_manager, self.email_label.text())
             if len(user):
                 email_public_keys.delete(
-                    email_public_keys.Data(*user)
+                    email_public_keys.Data(*user[0])
                 )
 
             email_public_keys.insert(

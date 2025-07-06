@@ -155,3 +155,74 @@
 2025-07-05 23:13:44,067 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
 2025-07-05 23:13:44,067 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
 2025-07-05 23:13:44,080 [INFO] - [security]: vietnamsonglai005@gmail.com - Thay đổi khóa private key vs public key - thành công
+2025-07-06 10:39:16,797 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:39:16,821 [ERROR] - [security]: Tạo QR TOTP thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\totp.py", line 29, in __send
+    qrcode.create_qr(data=url, filename='qr.png')
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\utils\qrcode.py", line 14, in create_qr
+    img = qr.make_image(fill_color="black", back_color="white")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\main.py", line 364, in make_image
+    from qrcode.image.pil import Image, PilImage
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\image\pil.py", line 2, in <module>
+    from PIL import Image, ImageDraw
+ModuleNotFoundError: No module named 'PIL'
+2025-07-06 10:40:29,310 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:40:29,340 [ERROR] - [security]: Tạo QR TOTP thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\totp.py", line 29, in __send
+    qrcode.create_qr(data=url, filename='qr.png')
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\utils\qrcode.py", line 14, in create_qr
+    img = qr.make_image(fill_color="black", back_color="white")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\main.py", line 364, in make_image
+    from qrcode.image.pil import Image, PilImage
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\image\pil.py", line 2, in <module>
+    from PIL import Image, ImageDraw
+ModuleNotFoundError: No module named 'PIL'
+2025-07-06 10:41:39,457 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:41:39,484 [ERROR] - [security]: Tạo QR TOTP thất bại
+Traceback (most recent call last):
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\gui\totp.py", line 29, in __send
+    qrcode.create_qr(data=url, filename='qr.png')
+  File "D:\HCMUS\Nam3\HK3\An-Ninh-May-Tinh\ThucHanh\Projec01\Secure-Simulation\modules\utils\qrcode.py", line 14, in create_qr
+    img = qr.make_image(fill_color="black", back_color="white")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\main.py", line 364, in make_image
+    from qrcode.image.pil import Image, PilImage
+  File "C:\Users\linh2\anaconda3\envs\security\Lib\site-packages\qrcode\image\pil.py", line 2, in <module>
+    from PIL import Image, ImageDraw
+ModuleNotFoundError: No module named 'PIL'
+2025-07-06 10:42:09,763 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:42:09,910 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-06 10:42:14,063 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-06 10:42:38,087 [INFO] - [security]: Bắt đầu gửi OTP đến vietnamsonglai005@gmail.com
+2025-07-06 10:42:43,324 [INFO] - [security]: Gửi OTP thành công
+2025-07-06 10:42:45,638 [WARNING] - [security]: Xác thực OTP - thất bại
+2025-07-06 10:42:50,923 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:42:51,021 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-06 10:42:56,345 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-06 10:43:18,586 [INFO] - [security]: vietnamsonglai005@gmail.com - AES giải mã private_key bằng mật khẩu - thành công
+2025-07-06 10:43:18,587 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password mới - thành công
+2025-07-06 10:43:18,588 [INFO] - [security]: vietnamsonglai005@gmail.com - SHA_256 Mã hóa new_password - thành công
+2025-07-06 10:43:30,752 [INFO] - [security]: vietnamsonglai005@gmail.com - AES giải mã private_key bằng mật khẩu - thành công
+2025-07-06 10:43:30,753 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password mới - thành công
+2025-07-06 10:43:30,753 [INFO] - [security]: vietnamsonglai005@gmail.com - SHA_256 Mã hóa new_password - thành công
+2025-07-06 10:43:43,495 [INFO] - [security]: vietnamsonglai005@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-06 10:43:43,496 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-06 10:43:43,496 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-06 10:43:43,501 [INFO] - [security]: vietnamsonglai005@gmail.com - Thay đổi khóa private key vs public key - thành công
+2025-07-06 10:43:56,968 [INFO] - [security]: vietnamsonglai005@gmail.com - AES giải mã private_key bằng mật khẩu - thành công
+2025-07-06 10:43:56,969 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password mới - thành công
+2025-07-06 10:43:56,971 [INFO] - [security]: vietnamsonglai005@gmail.com - SHA_256 Mã hóa new_password - thành công
+2025-07-06 10:44:13,953 [INFO] - [security]: vietnamsonglai005@gmail.com - RSA sinh private key vs public key - thành công
+2025-07-06 10:44:13,954 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng password - thành công
+2025-07-06 10:44:13,954 [INFO] - [security]: vietnamsonglai005@gmail.com - AES Mã hóa private key bằng mã khôi phục - thành công
+2025-07-06 10:44:13,970 [INFO] - [security]: vietnamsonglai005@gmail.com - Thay đổi khóa private key vs public key - thành công
+2025-07-06 10:45:06,570 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:45:06,675 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-06 10:45:11,742 [INFO] - [security]: Xác thực TOTP - thành công
+2025-07-06 10:51:09,370 [INFO] - [security]: Bắt đầu tạo TOTP ...
+2025-07-06 10:51:09,534 [INFO] - [security]: Tạo QR TOTP thành công
+2025-07-06 10:51:13,600 [INFO] - [security]: Xác thực TOTP - thành công
