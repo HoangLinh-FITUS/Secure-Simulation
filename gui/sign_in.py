@@ -89,14 +89,15 @@ class SignIn(QDialog):
             gui.announce.not_exist_email()
             return
 
+        if auth_controller.is_block():
+            self.__time_lock = auth_controller.time_block()
+            if self.__time_lock == -1:
+                status.lock_account(self.email, 0)
+            else:
+                self.__lock_account()
+                return
+                
         if auth_controller.check_account():
-            if auth_controller.is_block():
-                self.__time_lock = auth_controller.time_block()
-                if self.__time_lock == -1:
-                    status.lock_account(self.email, 0)
-                else:
-                    self.__lock_account()
-                    return 
             
             self.mfa_window = gui.mfa.MFA_Window(email_to=self.email)
             

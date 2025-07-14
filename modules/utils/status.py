@@ -25,6 +25,7 @@ def lock_account(
     user.is_block = is_block
     user.thoi_han_block = hethan(datetime.datetime.now().strftime('%c'), time_lock / SECOND_OF_A_DAY)
     users_db.update(user)
+    return user
 
 def check_change_public_key(email_manager: str, email: str) -> bool:
     users = user_keys.find_email(email)

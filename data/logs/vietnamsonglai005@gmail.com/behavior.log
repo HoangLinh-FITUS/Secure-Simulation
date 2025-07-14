@@ -132,3 +132,114 @@ ValueError: Incorrect decryption.
 2025-07-06 11:55:24,796 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/test/file/large.pdf
 2025-07-06 11:55:29,033 [INFO] - [behavior]: Mở file D:/HCMUS/Nam3/HK3/An-Ninh-May-Tinh/ThucHanh/Projec01/Secure-Simulation/data/file_large.sig
 2025-07-06 11:55:31,515 [INFO] - [behavior]: Xác minh chữ ký thất bại
+2025-07-14 13:43:21,593 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 13:43:24,335 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 13:43:30,282 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 13:54:13,053 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 13:55:27,810 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 13:55:29,957 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 13:55:33,488 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 13:55:33,679 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 13:55:33,837 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 13:55:34,261 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:01:48,148 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:03:41,663 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:03:43,957 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:44,454 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:44,996 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:45,435 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:46,068 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:46,430 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:47,252 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:47,630 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:47,963 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:48,260 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:48,549 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:48,702 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:48,875 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:49,004 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:49,133 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:49,390 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:49,567 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:49,709 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:49,863 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:50,002 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:50,155 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:50,300 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:50,454 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:50,611 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:50,766 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:50,922 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:51,093 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:51,265 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:51,759 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:51,989 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:55,747 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:56,004 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:56,377 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:56,732 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:03:57,429 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:03:57,647 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:04:04,726 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:04:10,851 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:04:12,675 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:04:16,070 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:04:19,171 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:04:21,898 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:04:22,316 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:04:24,302 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:05:12,496 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:05:14,532 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:14,816 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:15,134 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:15,204 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:15,363 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:16,117 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:16,817 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:17,313 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:18,290 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:18,553 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:19,029 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:19,329 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:19,570 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:19,699 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:19,850 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:19,993 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:20,151 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:20,299 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:20,752 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:20,994 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:21,394 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:21,695 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:22,009 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:22,329 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:22,564 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:22,803 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:23,072 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:23,482 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:23,967 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:24,615 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:25,199 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:25,394 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:26,145 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:26,567 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:27,143 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:28,017 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:05:28,235 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:05:32,427 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:22:12,124 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:22:14,216 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:24:45,094 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:24:47,910 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:24:49,938 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:24:59,360 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:25:02,990 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:25:03,363 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:25:03,680 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:25:04,523 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:25:07,737 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:25:08,483 [INFO] - [behavior]: linh2040501@gmail.com- Unblock account
+2025-07-14 14:28:23,612 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:28:25,734 [INFO] - [behavior]: linh2040501@gmail.com- block account
+2025-07-14 14:29:40,115 [INFO] - [behavior]: Xem các tài khoản trong hệ thông
+2025-07-14 14:29:46,270 [INFO] - [behavior]: linh2040501@gmail.com- block account

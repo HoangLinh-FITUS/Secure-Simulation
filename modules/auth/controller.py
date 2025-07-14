@@ -71,5 +71,5 @@ class AuthController:
         second = datetime.datetime.strptime(user.thoi_han_block, '%c') - datetime.datetime.now()
         
         if second < datetime.timedelta(0): return -1
-        return second.seconds
+        return int(second.total_seconds())
         

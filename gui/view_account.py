@@ -3,7 +3,9 @@ from PySide6.QtCore import *
 
 from modules.database import users as users_db
 from modules.config import logger 
+from modules.utils import status
 
+INF = 1e9 
 
 class ViewAccounts(QWidget):
     def __init__(self, email_manager: str, parent=None):
@@ -84,11 +86,13 @@ class ViewAccounts(QWidget):
         if index is not None:
             acc = self.accounts[index]
             acc.is_block = 0 if acc.is_block else 1
+            acc = status.lock_account(acc.email, acc.is_block, INF * acc.is_block)
+            self.accounts[index] = acc
             self.load_data()
 
             logger.user.info(f'{acc.email}' + '- ' + ('Unblock' if acc.is_block else 'block') +  ' account')
 
-            users_db.update(acc)
+            # users_db.update(acc)
 
     def change_role(self):
         index = self.get_selected_account_index()

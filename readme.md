@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 **Bước 2**: thêm biến môi trường vào file `.env` giống với `.env.example`
 -  `EMAIL_SEND=''` dùng email thật dùng để gửi xác thực OTP.
-- `PASSPHRASE=''` sign-in với app password của gmail có để xem hướng dẫn tại [here](https://support.google.com/mail/answer/185833?hl=en)
+- `PASSPHRASE=''` sign-in với app password của gmail có thể xem hướng dẫn tại [here](https://support.google.com/mail/answer/185833?hl=en)
 
 
 **Bước 3**: chạy toàn bộ project bằng lệnh sau:
